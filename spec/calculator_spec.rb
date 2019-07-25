@@ -34,7 +34,7 @@ describe "./calculator.rb" do
   it "contains a local variable called product that is assigned to the result of multiplying first_number and second_number" do
     first_number = get_variable_from_file('./calculator.rb', "first_number")
     second_number = get_variable_from_file('./calculator.rb', "second_number")
-    product = 3.1
+    product = 3.2
 
     expect(product).to eq(first_number*second_number)
   end
